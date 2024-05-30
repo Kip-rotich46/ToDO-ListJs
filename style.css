@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+}
+
+#posts{
+    width: 400px;
+
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+}
+
+.options i{
+    cursor: pointer;
+}
+
+.options i:hover{
+    color: red;
+}
+
+#msg{
+    color: red;
+    margin-bottom: 10px;
+}
